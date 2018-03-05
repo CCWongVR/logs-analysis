@@ -41,14 +41,15 @@ def run_tool():
     # print out query results
     print("Top Articles: (title / views)")
     for x in range(len(top_articles)):
-        print (top_articles)[x]
-    print ("\n")
+        print(top_articles)[x]
+    print("\n")
     print("Top Authors: (name / views)")
     for x in range(len(top_authors)):
-        print (top_authors)[x]
-    print ("\n")
+        print(top_authors)[x]
+    print("\n")
     print("Buggy Days: (date)")
     for x in range(len(bug_days)):
-        print (bug_days)[x]
+        print(bug_days)[x]
 # executes our method
 run_tool()
+
