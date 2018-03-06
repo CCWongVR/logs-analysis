@@ -12,8 +12,9 @@ You will need:
 
 ```
 Python 3
+Virtual Box
 Vagrant
-Udacity News Database
+[Udacity News Database]:https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip
 ```
 ## Running the script
 
@@ -33,10 +34,16 @@ Log in to the VM
 vagrant ssh
 ```
 
+Move into the shared vagrant folder
+
+```
+cd /vagrant
+```
+
 Enter Postgresql and the news DB
 
 ```
-psql news
+psql -d news -f newsdata.sql
 ```
 
 ### Views
@@ -63,12 +70,6 @@ To run our python script, first exit psql
 
 ```
 ctrl + D
-```
-
-Move into the shared vagrant folder
-
-```
-cd /vagrant
 ```
 
 Run the script
