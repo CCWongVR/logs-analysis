@@ -1,15 +1,15 @@
 Top Articles: (title / views)
-('Candidate is jerk, alleges rival', 338647L)
-('Bears love berries, alleges bear', 253801L)
-('Bad things gone, say good people', 170098L)
+Candidate is jerk, alleges rival --     338647
+Bears love berries, alleges bear --     253801
+Bad things gone, say good people --     170098
 
 
 Top Authors: (name / views)
-('Ursula La Multa', 512805L)
-('Rudolf von Treppenwitz', 427781L)
-('Anonymous Contributor', 171762L)
-('Markoff Chaney', 85387L)
+Ursula La Multa        --     512805
+Rudolf von Treppenwitz --     427781
+Anonymous Contributor  --     171762
+Markoff Chaney         --      85387
 
 
 Buggy Days: (date)
-(datetime.date(2016, 7, 17),)
+2016-07-17
