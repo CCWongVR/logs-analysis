@@ -5,11 +5,11 @@ Bad things gone, say good people --     170098
 
 
 Top Authors: (name / views)
-Ursula La Multa        --     512805
-Rudolf von Treppenwitz --     427781
-Anonymous Contributor  --     171762
-Markoff Chaney         --      85387
+Ursula La Multa        --     507594
+Rudolf von Treppenwitz --     423457
+Anonymous Contributor  --     170098
+Markoff Chaney         --      84557
 
 
-Buggy Days: (date)
+Buggy Dates: (year-month-day)
 2016-07-17
