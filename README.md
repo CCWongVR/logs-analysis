@@ -11,7 +11,7 @@ These instructions will get you a copy of the project up and running on your loc
 You will need:
 
 ```
-Python 3
+Python 2
 Virtual Box
 Vagrant
 [Udacity News Database](https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip)
@@ -75,11 +75,11 @@ ctrl + D
 Run the script
 
 ```
-python3 logsanalysis.py
+python logsanalysis.py
 ```
 
 ## Acknowledgments
 
 * Udacity
 * Perry McManis for sql syntax help
-* Python 3 documentation
+* Official Python documentation
