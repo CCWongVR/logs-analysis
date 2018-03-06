@@ -23,7 +23,7 @@ def run_tool():
     c.execute(
         "select authors.name, count(log.path) as views "
         "from authors join articles on authors.id = articles.author "
-        "join log on log.path like concat('%', articles.slug, '%') "
+        "join log on log.path like concat('%', articles.slug) "
         "group by authors.name "
         "order by views desc;")
     # stores result as var
