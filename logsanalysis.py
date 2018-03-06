@@ -40,16 +40,16 @@ def run_tool():
     db.close()
     # print out query results
     print("Top Articles: (title / views)")
-    for x in range(len(top_articles)):
-        print(top_articles)[x]
-    print("\n")
+    for title, views in top_articles:
+        print('{0:10} -- {1:10d}'.format(title, views))
+    print ("\n")
     print("Top Authors: (name / views)")
-    for x in range(len(top_authors)):
-        print(top_authors)[x]
-    print("\n")
+    for name, views in top_authors:
+        print ('{0:22} -- {1:10d}'.format(name, views))
+    print ("\n")
     print("Buggy Days: (date)")
-    for x in range(len(bug_days)):
-        print(bug_days)[x]
+    for day in bug_days:
+        print (day)[0]
 # executes our method
 run_tool()
 
