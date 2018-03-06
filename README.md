@@ -81,3 +81,4 @@ python logsanalysis.py
 
 * Udacity
 * Perry McManis for sql syntax help
+* Python 3 documentation
