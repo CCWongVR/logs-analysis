@@ -48,8 +48,8 @@ def run_tool():
     for name, views in top_authors:
         print('{0:22} -- {1:10d}'.format(name, views))
     print("\n")
-    print("Buggy Days: (date)")
+    print("Buggy Dates: (year-month-day)")
     for day in bug_days:
-        print('{0:10}'.format(day))
+        print (day)[0]
 # executes our method
 run_tool()
