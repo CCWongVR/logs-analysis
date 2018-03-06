@@ -15,7 +15,7 @@ def run_tool():
     # executes sql query 1
     c.execute(
         "select articles.title, count(log.path) as views from articles "
-        "join log on log.path like concat('%', articles.slug, '%') "
+        "join log on log.path like concat('%', articles.slug) "
         "group by articles.title, log.path order by views desc limit 3;")
     # stores result as var
     top_articles = c.fetchall()
@@ -30,7 +30,8 @@ def run_tool():
     top_authors = c.fetchall()
     # executes sql query 3
     c.execute(
-        "select time::date as day from log join total_status on "
+        "select to_char(date, 'Mon DD, YYYY') as day "
+        "from log join total_status on "
         "total_status.day = time::date join error_status on "
         "error_status.day = time::date where "
         "round(100 * error_status.e_count / total_status.t_count, 2) > .01 "
@@ -52,4 +53,3 @@ def run_tool():
         print(day)[0]
 # executes our method
 run_tool()
-
