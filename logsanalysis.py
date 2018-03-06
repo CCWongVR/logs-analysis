@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python2
 #
 # An internal tool to analyze data for a new website
 
@@ -30,7 +30,7 @@ def run_tool():
     top_authors = c.fetchall()
     # executes sql query 3
     c.execute(
-        "select to_char(date, 'Mon DD, YYYY') as day "
+        "select time::date as day "
         "from log join total_status on "
         "total_status.day = time::date join error_status on "
         "error_status.day = time::date where "
@@ -50,6 +50,6 @@ def run_tool():
     print("\n")
     print("Buggy Days: (date)")
     for day in bug_days:
-        print(day)[0]
+        print('{0:10}'.format(day))
 # executes our method
 run_tool()
