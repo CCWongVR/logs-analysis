@@ -75,7 +75,7 @@ ctrl + D
 Run the script
 
 ```
-python logsanalysis.py
+python3 logsanalysis.py
 ```
 
 ## Acknowledgments
