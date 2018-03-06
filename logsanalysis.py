@@ -42,13 +42,14 @@ def run_tool():
     print("Top Articles: (title / views)")
     for title, views in top_articles:
         print('{0:10} -- {1:10d}'.format(title, views))
-    print ("\n")
+    print("\n")
     print("Top Authors: (name / views)")
     for name, views in top_authors:
-        print ('{0:22} -- {1:10d}'.format(name, views))
-    print ("\n")
+        print('{0:22} -- {1:10d}'.format(name, views))
+    print("\n")
     print("Buggy Days: (date)")
     for day in bug_days:
-        print (day)[0]
+        print(day)[0]
 # executes our method
 run_tool()
+
