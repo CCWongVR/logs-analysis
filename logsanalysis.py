@@ -52,4 +52,3 @@ def run_tool():
         print (day)[0]
 # executes our method
 run_tool()
-
