@@ -14,7 +14,7 @@ You will need:
 Python 3
 Virtual Box
 Vagrant
-[Udacity News Database]: https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip)
+Udacity News Database: https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip)
 ```
 ## Running the script
 
