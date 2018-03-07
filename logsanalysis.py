@@ -1,4 +1,4 @@
-#!/usr/bin/env python2
+#!/usr/bin/env python
 #
 # An internal tool to analyze data for a new website
 
@@ -50,6 +50,6 @@ def run_tool():
     print("\n")
     print("Buggy Dates: (year-month-day)")
     for day in bug_days:
-        print (day)[0]
+        print(day)[0]
 # executes our method
 run_tool()
